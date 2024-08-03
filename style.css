@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(149, 204, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid gray;
+    position: relative; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px; /
+}
+
+label {
+    font-weight: bold;
+    margin-top: 5px; 
+}
+
+input, textarea {
+    padding: 12px; 
+    border: 1px solid rgb(134, 96, 96);
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 4px; /* Espacio entre el cuadro de entrada y el borde superior */
+}
+
+textarea {
+    resize: vertical; 
+}
+
+button {
+    background-color: rgb(233, 149, 170);
+    border: none;
+    padding: 15px;
+    width: 105%;
+    height: 50px;
+    border-radius: 8px;
+    margin: 3px auto;
+}
+
+.image-container {
+    position: absolute; /* Posiciona la imagen fuera del flujo normal del documento */
+    top: 200px; /* Ajusta la posición */
+    right: 1000px; 
+    width: 400px; /* Ajusta el ancho */
+    height: 400px; /* Ajusta la altura  */
+    background-image: url('https://mcusercontent.com/e8fde100999e66cbd47be076d/images/f7982456-7feb-9898-ea41-78905cae3859.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+}
+
+
+h3 {
+    font-size: 40px; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    color: #333; /* Cambia el color del texto */
+    text-align: center; /* Alinea el texto al centro */
+    margin-bottom: 20px; /* Espacio debajo del elemento */
+    margin-top: 0; /* Espacio encima del elemento */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    border-bottom: 4px solid #009688; /* Agrega una línea debajo del texto */
+    padding-bottom: 10px; /* Espacio entre el texto y la línea */
+}
